@@ -3,7 +3,8 @@ $(function(){
 	// var portfolioindex_url = 'http://clocktree.dothome.co.kr/portfoliomain';
 	// var portfolioindex_url = 'http://clocktree.kr';
 	// var portfolioindex_url = 'http://www.clocktree.kr/portfoliomain'
-	var portfolioindex_url = 'http://www.clocktree.co.kr'
+	var portfolioindex_url;
+	var url_sub = 'http:///www.clocktreedomain.dothome.co.kr';
 
 	var body_tag = document.body;
 	var $body = $('body');
@@ -17,13 +18,28 @@ $(function(){
 	var frame_year;
 	var $layer_sel;
 	var jsonCover_data=portfolioindex_url+'/data/cover_data.json';
+	var jsonCover_data_sub = url_sub+'/data/cover_data.json';
 	var jsonHeader_data=portfolioindex_url+'/data/header_data.json';
+	var jsonHeader_data_sub = url_sub+'/data/header_data.json';
 	var jsonFrame_data=portfolioindex_url+'/data/frame_data.json';
+	var jsonFrame_data_sub = url_sub+'/data/frame_data.json';
 	var name_header=document.querySelector('.header');
 	var name_footer=document.getElementsByTagName('footer');
 	var footer_contaner=document.querySelector('footer .body-footer-contaner');
 	var split_url = this.location.href.split('/').reverse()[0];
 
+	if((location.href=='http://www.clocktree.co.kr')||(location.href=='http://www.clocktree.co.kr/index.html')){
+		portfolioindex_url = 'http://www.clocktree.co.kr'
+	}else if((location.href=='http://www.clocktreedomain.dothome.co.kr')||(location.href=='http://www.clocktreedomain.dothome.co.kr/index.html')){
+		portfolioindex_url = 'http://www.clocktreedomain.dothome.co.kr'
+	}else if((location.href=='http://clocktree.kr')||(location.href=='http://clocktree.kr/index.html')){
+		portfolioindex_url = 'http://clocktree.kr'
+	}else if((location.href=='http://http://clocktree.dothome.co.kr/portfoliomain')||(location.href=='http://http://clocktree.dothome.co.kr/portfoliomain/index.html')){
+		portfolioindex_url = 'http://http://clocktree.dothome.co.kr/portfoliomain'
+	}else if((location.href=='https://cl0cktree.github.io/jsonframe')||(location.href=='https://cl0cktree.github.io/jsonframe/index.html')){
+		portfolioindex_url = 'https://cl0cktree.github.io/jsonframe'
+	};
+	
 	/*loader 제어*/
 	$(document).ready(function(){
 		$('.body-filter-preloader').load(portfolioindex_url+'/cover/cover.html .filter-preloader-loadingbox',function(){
