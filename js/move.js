@@ -29,7 +29,7 @@ $(function(){
 
 	function select_url(){
 		if((this_url=='www.clocktree.co.kr/')||(this_url=='www.clocktree.co.kr/index.html')||(this_url=='www.clocktree.co.kr/sub/sub1.html')||(this_url=='www.clocktree.co.kr/sub/sub2.html')||(this_url=='www.clocktree.co.kr/sub/sub3.html')||(this_url=='www.clocktree.co.kr/sub/sub4.html')||(this_url=='www.clocktree.co.kr/sub/sub5.html')){
-			portfolioindex_url = 'http://www.clocktree.co.kr'
+			portfolioindex_url = 'https://www.clocktree.co.kr'
 			console.log('type_1 = '+portfolioindex_url);
 		}else if((this_url=='clocktreedomain.dothome.co.kr/')||(this_url=='clocktreedomain.dothome.co.kr/index.html')||(this_url=='clocktreedomain.dothome.co.kr/sub/sub1.html')||(this_url=='clocktreedomain.dothome.co.kr/sub/sub2.html')||(this_url=='clocktreedomain.dothome.co.kr/sub/sub3.html')||(this_url=='clocktreedomain.dothome.co.kr/sub/sub4.html')||(this_url=='clocktreedomain.dothome.co.kr/sub/sub5.html')){
 			portfolioindex_url = 'http://clocktreedomain.dothome.co.kr'
