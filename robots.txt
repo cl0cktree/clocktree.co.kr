@@ -1,4 +1,4 @@
-(https://www.clocktree.co.kr/robots.txt)
+(https://clocktree.co.kr/robots.txt)
 User-agent: *
 Disallow: /sub/
 Disallow: /data/
