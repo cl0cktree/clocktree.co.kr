@@ -29,6 +29,7 @@
       var p_button;
       var h_button;
       var e_mail;
+      var form_tabindex;
       var e_name;
       var e_title;
       var message_input;
@@ -39,6 +40,7 @@
 
         document.addEventListener("DOMContentLoaded", function(){
             e_mail =document.getElementById('email');
+            form_tabindex = document.getElementById('contact_form').querySelectorAll('*[tabindex]');
             e_name = document.getElementById('name');
             e_title = document.getElementById('title');
             message_input = document.getElementById('message');
@@ -51,7 +53,9 @@
               popup_content = document.querySelector('.popup_content');
               vali = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
               console.log('dimm_filter = '+dimm_filter.className);
-
+              
+              // form_tabindex.value=-1;
+              // console.log('form_tabindex = '+form_tabindex.attribute);
               dimm_filter.classList.add('on');
               if(e_mail.value==''){
                 popup_content.querySelector('p').innerHTML+='<span>이메일을 입력 해주세요.</span><br>';
@@ -107,8 +111,8 @@
 
         });
     </script>
+    <div class="email_wrap" id="email_wrap">
     <form id="mail_form">
-      <div class="email_wrap" id="email_wrap">
       <div class="contact_form" id="contact_form">
         <h3>이메일 문의</h3>
         <table id="mail_table" class="mail_table">
