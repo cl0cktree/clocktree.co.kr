@@ -344,7 +344,7 @@ footer .body-footer-contaner .top-btn{width:3em;background:rgba(0,0,0,1);border:
 			 #main-scroll5-con{background:url('../images/backgrounds1-2.png') no-repeat top;background-attachment:fixed;background-size:1100px;}
 			 .ul-li-img1{width:60px;height:60px;} .filter-title-closebtn{width:40px;height:40px;} .pagecount,.controll{height:30px;line-height:30px;font-size:14px;} .all-filter-conbox{width:92%;}
 			 .scrollall-con-box .con-box-imgborder{height:100px;} .con-box-imgborder img{position:absolute;} .top-btn{right:10px;} .index-btn-wrap{right:10px;}
-	/*sub1*/ .scrollall-con-word1,.scrollall-con-word2{width:48%;} .scrollall-con-workimg1,.scrollall-con-workimg2{width:48%;} .main-scrollall-backb{top:-50px;} .click-all-filter{width:calc(100% + 18px);overflow-y:scroll;}
+	/*sub1*/ .scrollall-con-word1,.scrollall-con-word2{width:48%;} .scrollall-con-workimg1,.scrollall-con-workimg2{width:48%;} .main-scrollall-backb{top:-50px;} .click-all-filter{width:100%;overflow-y:scroll;}
 }
 @media all and (min-width:1081px) and (max-width:1280px){
 	/*공통body{background:purple;}*/
@@ -356,7 +356,7 @@ footer .body-footer-contaner .top-btn{width:3em;background:rgba(0,0,0,1);border:
 			 #main-scroll5-con{background:url('../images/backgrounds1-2.png') no-repeat top;background-attachment:fixed;background-size:1300px;}
 			 .ul-li-img1{width:60px;height:60px;} .filter-title-closebtn{width:50px;height:50px;} .pagecount,.controll{height:30px;line-height:30px;font-size:14px;} .all-filter-conbox{width:88%;}
 			 .scrollall-con-box .con-box-imgborder{height:100px;} .con-box-imgborder img{position:absolute;} .top-btn{right:20px;} .index-btn-wrap{right:20px;}
-	/*sub1*/ .scrollall-con-word1,.scrollall-con-word2{width:48%;} .scrollall-con-workimg1,.scrollall-con-workimg2{width:48%;} .main-scrollall-backb{top:-50px;} .click-all-filter{width:calc(100% + 18px);overflow-y:scroll;}
+	/*sub1*/ .scrollall-con-word1,.scrollall-con-word2{width:48%;} .scrollall-con-workimg1,.scrollall-con-workimg2{width:48%;} .main-scrollall-backb{top:-50px;} .click-all-filter{width:100%;overflow-y:scroll;}
 }
 @media all and (min-width:1281px) and (max-width:1500px){
 	/*공통body{background:skyblue;}*/
@@ -368,7 +368,7 @@ footer .body-footer-contaner .top-btn{width:3em;background:rgba(0,0,0,1);border:
 			 #main-scroll5-con{background:url('../images/backgrounds1-2.png') no-repeat top;background-attachment:fixed;background-size:1300px;}
 			 .ul-li-img1{width:60px;height:60px;} .filter-title-closebtn{width:60px;height:60px;} .pagecount,.controll{height:30px;line-height:30px;font-size:14px;} .all-filter-conbox{width:88%;}
 			 .scrollall-con-box .con-box-imgborder{height:100px;} .con-box-imgborder img{position:absolute;} .top-btn{right:20px;} .index-btn-wrap{right:20px;}
-	/*sub1*/ .scrollall-con-word1,.scrollall-con-word2{width:48%;} .scrollall-con-workimg1,.scrollall-con-workimg2{width:48%;} .main-scrollall-backb{top:-50px;} .click-all-filter{width:calc(100% + 18px);overflow-y:scroll;}
+	/*sub1*/ .scrollall-con-word1,.scrollall-con-word2{width:48%;} .scrollall-con-workimg1,.scrollall-con-workimg2{width:48%;} .main-scrollall-backb{top:-50px;} .click-all-filter{width:100%;overflow-y:scroll;}
 }
 @media all and (min-width:1501px){
 	/*공통body{background:navy;}*/
@@ -380,5 +380,5 @@ footer .body-footer-contaner .top-btn{width:3em;background:rgba(0,0,0,1);border:
 			 #main-scroll5-con{background:url('../images/backgrounds1-2.png') no-repeat top;background-attachment:fixed;background-size:1300px;}
 			 .ul-li-img1{width:60px;height:60px;} .filter-title-closebtn{width:70px;height:70px;} .pagecount,.controll{height:30px;line-height:30px;font-size:14px;} .all-filter-conbox{width:88%;}
 			 .scrollall-con-box .con-box-imgborder{height:100px;} .con-box-imgborder img{position:absolute;} .top-btn{right:20px;} .index-btn-wrap{right:20px;}
-	/*sub1*/ .scrollall-con-word1,.scrollall-con-word2{width:48%;} .scrollall-con-workimg1,.scrollall-con-workimg2{width:48%;} .main-scrollall-backb{top:-50px;} .click-all-filter{width:calc(100% + 18px);overflow-y:scroll;}
+	/*sub1*/ .scrollall-con-word1,.scrollall-con-word2{width:48%;} .scrollall-con-workimg1,.scrollall-con-workimg2{width:48%;} .main-scrollall-backb{top:-50px;} .click-all-filter{width:100%;overflow-y:scroll;}
 }
