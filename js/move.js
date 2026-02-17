@@ -2035,7 +2035,7 @@ $(function(){
 		event.preventDefault();
 		event.stopPropagation();
 		$layer_sel = $(this);
-		// $body.css({'overflow-y':'hidden'});
+		$body.css({'overflow-y':'hidden'});
 		$('.scrollall-con-box').attr({'tabindex':'-1'});
 		$('#click-all-filter-index').html('<div class="filter-loader-loadingbox"><div class="loader-loadingbox-spin"><div class="loadingbox-spin-inaroundf"></div></div></div>')
 		$('.click-all-filter').fadeIn('fast',function(){
