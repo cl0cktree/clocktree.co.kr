@@ -22,7 +22,7 @@ a{font-family:'Nanum Gothic','NanumGothic','Gothic','고딕';}
 canvas{position:fixed;bottom:0;left:0;right:0;width:100%;z-index:0;}
 input[type=radio]{display:none;}
 input[type=checkbox]{display:none;}
-input[type=text]{box-sizing:border-box;}
+input[type=text]{box-sizing:border-box; touch-action:manipulation;}
 input[type=button]{box-sizing:border-box;font-family:'Nanum Gothic','NanumGothic';}
 input[type=select]{appearance:none;}
 
