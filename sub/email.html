@@ -94,12 +94,18 @@
               h_button.focus();
             });
             h_button.addEventListener('click',h_button_click);
-            mail_table.addEventListener('touchstart', function(e){
-              form_tabindex.forEach(function(item){
-                item.focus();
-                console.log('item.focus()');
-              });
+            // mail_table.addEventListener('touchstart', function(e){
+              // form_tabindex.forEach(function(item){
+              //   item.focus();
+              //   console.log('item = '+item.getAttribute('name'));
+              // });
               // e.preventDefault();
+            // });
+            form_tabindex.forEach(function(item){
+               item.addEventListener('touchstart', function(e){
+                 this.focus();
+                 console.log('focus this = '+this.getAttribute('id'));
+               });
             });
 
             document.getElementById('mail_form').addEventListener('submit', function(event) {
